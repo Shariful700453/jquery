@@ -6,6 +6,10 @@
 		$('p').show();
 	});
 
+	$('button').click(function(){
+		$('p').toggle();
+	});
+
 
 
 
