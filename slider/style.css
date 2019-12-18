@@ -1,0 +1,39 @@
+.slidedown{
+	padding: 10px;
+	background: red;
+	color: #fff;
+	text-align: center;
+}
+.slidedown1{
+	padding: 20px;
+	background: #222;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+
+.slideup{
+	padding: 20px;
+	background: #222;
+	color: #fff;
+	text-align: center;
+}
+.slideup1{
+	padding: 10px;
+	background: red;
+	color: #fff;
+	text-align: center;
+}
+
+.slidetoggle{
+	padding: 20px;
+	background: tomato;
+	color: #fff;
+	text-align: center;
+}
+.slidetoggle1{
+	padding: 20px;
+	background: orange;
+	color: #fff;
+	text-align: center;
+}
