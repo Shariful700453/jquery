@@ -1,0 +1,14 @@
+.slidedown{
+	padding: 20px;
+	background: tomato;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+.slidedown1{
+	padding: 100px;
+	background: #222;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
