@@ -1,0 +1,17 @@
+.fancybox-wrap ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.fancybox-wrap ul li{
+	float: left;
+	width: 50%;
+	margin: 20px 0;
+}
+.fancybox-wrap ul li a{
+	display: inline-block;
+}
+.fancybox-wrap ul li a img{
+	width: 600px;
+	height: 600px;
+}

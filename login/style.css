@@ -1,0 +1,96 @@
+.form{
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	background: #13232f;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 60px;
+}
+.form-title{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.form-title h3{
+	text-align: center;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+.name:before,
+.name:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.firstname{
+	float: left;
+	width: 50%;
+}
+.lastname{
+	float: right;width: 50%;
+}
+.firstname span,
+.lastname span,
+.email span,
+.password span{
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+}
+.firstname input[type=text],
+.lastname input[type=text]{
+	display: inline-block;
+	width: 340px;
+	height: 30px;
+	padding-left: 15px;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+}
+.email,
+.password{
+	padding-top: 20px;
+}
+.email input[type=text],
+.password input[type=text]{
+	display: inline-block;
+	width: 740px;
+	height: 30px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+.send{
+	text-align: center;
+	padding-top: 30px;
+}
+.send button{
+	display: inline-block;
+	padding: 10px 30px;
+	background: #47cf73;
+	color: #fff;
+	border: 1px solid #47cf73;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.send button:hover{
+	background: #3fbd68;
+	border: 1px solid #3fbd68;
+}
+.errormgs{
+	color: red;
+	font-size: 15px;
+	margin-top: 10px;
+	display: none;
+}
+.haserror .errormgs{
+	display: block;
+}
