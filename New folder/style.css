@@ -1,0 +1,22 @@
+ul{
+	list-style: none;
+}
+ul li h3{
+	background: green;
+	color: #fff;
+	padding: 20px;
+}
+.desc{
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	display: none;
+}
+.active{
+	background: red;
+	color: white;
+}
+.p1{
+	background: tomato;
+	color: white;
+}
