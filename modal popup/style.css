@@ -1,0 +1,39 @@
+.open-btn{
+	padding: 20px 40px;
+	background: #00bcd4;
+	color: #fff;
+	border: 1px solid #00bcd4;
+	margin-left: 50px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.popup{
+	background: #333;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.popup-inner{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-top: 50px;
+	padding: 20px;
+	position: relative;
+}
+.close{
+	color: #fff;
+}
+.cancel{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
